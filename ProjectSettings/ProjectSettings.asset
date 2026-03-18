@@ -5,6 +5,7 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
   productGUID: e0406961c08ddc4418255141f5ba041a
+  productGUID: ad7fd2c7e32784e44a68a3dc0f77ec78
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -14,6 +15,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: PrograSamuel
+  productName: menu
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -178,6 +180,9 @@ PlayerSettings:
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   AndroidPreferredDataLocation: 1
+  AndroidMinSdkVersion: 23
+  AndroidTargetSdkVersion: 0
+  AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
@@ -197,6 +202,11 @@ PlayerSettings:
   tvOSSimulatorArchitecture: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 15.0
+  iOSTargetOSVersionString: 13.0
+  tvOSSdkVersion: 0
+  tvOSSimulatorArchitecture: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 13.0
   VisionOSSdkVersion: 0
   VisionOSTargetOSVersionString: 1.0
   uIPrerenderedIcon: 0
@@ -256,6 +266,7 @@ PlayerSettings:
   shaderPrecisionModel: 0
   clonedFromGUID: c19f32bac17ee4170b3bf8a6a0333fb9
   templatePackageId: com.unity.template.universal-2d@6.1.2
+  templatePackageId: com.unity.template.universal-2d@6.1.1
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
@@ -330,6 +341,7 @@ PlayerSettings:
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 12.0
+  macOSTargetOSVersion: 11.0
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
@@ -605,6 +617,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: PrograSamuel
+  metroPackageName: menu
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
@@ -612,6 +625,7 @@ PlayerSettings:
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: PrograSamuel
+  metroApplicationDescription: menu
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -687,6 +701,13 @@ PlayerSettings:
   qualitySettingsNames: []
   projectName: PrograSamuel
   organizationId: sam_baca007
+  activeInputHandler: 1
+  windowsGamepadBackendHint: 0
+  cloudProjectId: 8a039fcc-67b3-4511-80c0-d91f798f70ab
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: menu
+  organizationId: payopool
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
