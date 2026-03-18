@@ -4,6 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
+  productGUID: e0406961c08ddc4418255141f5ba041a
   productGUID: ad7fd2c7e32784e44a68a3dc0f77ec78
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -13,6 +14,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+  productName: PrograSamuel
   productName: menu
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -70,6 +72,7 @@ PlayerSettings:
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 1
   androidUseSwappy: 1
+  androidDisplayOptions: 1
   androidBlitType: 0
   androidResizeableActivity: 1
   androidDefaultWindowWidth: 1920
@@ -173,6 +176,10 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 25
+  AndroidTargetSdkVersion: 0
+  AndroidPreferredInstallLocation: 1
+  AndroidPreferredDataLocation: 1
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -190,6 +197,11 @@ PlayerSettings:
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
   iOSSimulatorArchitecture: 0
+  iOSTargetOSVersionString: 15.0
+  tvOSSdkVersion: 0
+  tvOSSimulatorArchitecture: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 15.0
   iOSTargetOSVersionString: 13.0
   tvOSSdkVersion: 0
   tvOSSimulatorArchitecture: 0
@@ -253,6 +265,7 @@ PlayerSettings:
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
   clonedFromGUID: c19f32bac17ee4170b3bf8a6a0333fb9
+  templatePackageId: com.unity.template.universal-2d@6.1.2
   templatePackageId: com.unity.template.universal-2d@6.1.1
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
@@ -264,6 +277,7 @@ PlayerSettings:
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 2
+  AndroidAllowedArchitectures: -13
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -326,6 +340,7 @@ PlayerSettings:
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
+  macOSTargetOSVersion: 12.0
   macOSTargetOSVersion: 11.0
   switchNMETAOverride: 
   switchNetLibKey: 
@@ -601,6 +616,7 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+  metroPackageName: PrograSamuel
   metroPackageName: menu
   metroPackageVersion: 
   metroCertificatePath: 
@@ -608,6 +624,7 @@ PlayerSettings:
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+  metroApplicationDescription: PrograSamuel
   metroApplicationDescription: menu
   wsaImages: {}
   metroTileShortName: 
@@ -677,6 +694,13 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
+  activeInputHandler: 2
+  windowsGamepadBackendHint: 0
+  cloudProjectId: fc23f942-7051-4a45-958f-9d5e1316550e
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: PrograSamuel
+  organizationId: sam_baca007
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 8a039fcc-67b3-4511-80c0-d91f798f70ab
@@ -693,3 +717,5 @@ PlayerSettings:
   androidVulkanDenyFilterList: []
   androidVulkanAllowFilterList: []
   androidVulkanDeviceFilterListAsset: {fileID: 0}
+  d3d12DeviceFilterListAsset: {fileID: 0}
+  allowedHttpConnections: 3
