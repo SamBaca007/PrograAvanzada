@@ -11,7 +11,7 @@ public class MusicManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            // ¡ESTO ES LO IMPORTANTE! Hace que el objeto sobreviva entre escenas
+            //  Hace que el objeto sobreviva entre escenas
             DontDestroyOnLoad(gameObject);
         }
         else
